@@ -359,10 +359,10 @@ def build_readme():
     
     # 1. INTRO
     lines.append("<h1 align=\"center\">Hi 👋, I'm Jayasubramani</h1>")
-    lines.append('<h3 align="center">AI Developer | Full Stack Developer | Java Programmer | Software Engineer | Founder of JS SoftTools</h3>\\n')
+    lines.append('<h3 align="center">AI Developer | Full Stack Developer | Java Programmer | Software Engineer | Founder of JS SoftTools</h3>\n')
     
     lines.append('<p align="left"> <img src="https://komarev.com/ghpvc/?username=jayamani2006&label=Profile%20views&color=0e75b6&style=flat" alt="jayamani2006" /> </p>')
-    lines.append('<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jayamani2006&theme=dracula" alt="jayamani2006" /></a> </p>\\n')
+    lines.append('<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jayamani2006&theme=dracula" alt="jayamani2006" /></a> </p>\n')
     
     # 2. ABOUT ME BULLETS
     lines.append("- 🔭 I’m currently working on [JS NotePad Website](https://js-notepad-website.onrender.com)")
@@ -372,7 +372,7 @@ def build_readme():
     lines.append("- 👨‍💻 All of my projects are available at [https://jayasubramaniportfolio.netlify.app/](https://jayasubramaniportfolio.netlify.app/)")
     lines.append("- 💬 Ask me about **Java, Python, SQL, Node.js, Angular, React, Desktop Application Development, AI Projects, UI/UX Design, GitHub Automation, Open Source**")
     lines.append("- 📫 How to reach me **Personal: jayasubramani2971@gmail.com | Business: support.jssofttoolsproducts@gmail.com**")
-    lines.append("- 📄 Know about my experiences [https://jayasubramaniportfolio.netlify.app/](https://jayasubramaniportfolio.netlify.app/)\\n")
+    lines.append("- 📄 Know about my experiences [https://jayasubramaniportfolio.netlify.app/](https://jayasubramaniportfolio.netlify.app/)\n")
     
     # 3. SOCIAL LINKS (Colored Badges)
     lines.append('<h3 align="left">Connect with me:</h3>')
@@ -386,7 +386,7 @@ def build_readme():
     lines.append('  <a href="https://leetcode.com/u/a9JgwmiBQz/"><img src="https://img.shields.io/static/v1?message=LeetCode&logo=leetcode&label=&color=FFA116&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="leetcode" /></a>')
     lines.append('  <a href="http://hackerrank.com/profile/jayasubramani291"><img src="https://img.shields.io/static/v1?message=HackerRank&logo=hackerrank&label=&color=00EA64&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="hackerrank" /></a>')
     lines.append('  <a href="https://jayasubramaniportfolio.netlify.app/"><img src="https://img.shields.io/static/v1?message=Portfolio&logo=web&label=&color=0a0a0f&logoColor=00ffc4&labelColor=&style=for-the-badge" height="25" alt="portfolio" /></a>')
-    lines.append('</div>\\n')
+    lines.append('</div>\n')
     
     # 4. TECH STACK (Devicons)
     lines.append('<h3 align="left">Languages and Tools:</h3>')
@@ -402,13 +402,13 @@ def build_readme():
     ]
     for tech in tech_icons:
         lines.append(f'  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{tech}" height="40" alt="{tech.split("/")[0]}" /> <img width="12" />')
-    lines.append('</div>\\n<br/>\\n')
+    lines.append('</div>\n<br/>\n')
     
     # 5. GITHUB STATS & STREAKS (Side-by-side Progress Style)
     lines.append('<div align="center">')
     lines.append('  <img src="https://github-readme-stats.vercel.app/api?username=jayamani2006&show_icons=true&theme=dracula&hide_border=false" height="150" alt="GitHub Stats" />')
     lines.append('  <img src="https://streak-stats.demolab.com?user=jayamani2006&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="Streak Graph" />')
-    lines.append('</div>\\n<br/>\\n')
+    lines.append('</div>\n<br/>\n')
     
     # 7. PACMAN CONTRIBUTION GRAPH
     lines.append('<div align="center">')
@@ -418,10 +418,10 @@ def build_readme():
     lines.append('    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jayamani2006/jayamani2006/pacman-output/pacman-contribution-graph.svg?game=pacman">')
     lines.append('    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/jayamani2006/jayamani2006/pacman-output/pacman-contribution-graph.svg?game=pacman">')
     lines.append('  </picture>')
-    lines.append('</div>\\n<br/>\\n')
+    lines.append('</div>\n<br/>\n')
 
     with open("README.md", "w", encoding="utf-8") as f:
-        f.write("\\n".join(lines))
+        f.write("\n".join(lines))
     print("Generated Ultimate README.md successfully.")
 
 if __name__ == "__main__":

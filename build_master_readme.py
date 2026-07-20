@@ -357,123 +357,73 @@ def generate_footer_svg():
 def build_readme():
     lines = []
     
-    # HERO 
-    lines.append(f'<div align="center">\n  <img src="{generate_hero_svg()}" alt="Hero" />\n</div>\n')
+    # 1. INTRO
+    lines.append("<h1 align=\"center\">Hi 👋, I'm Jayasubramani</h1>")
+    lines.append('<h3 align="center">AI Developer | Full Stack Developer | Java Programmer | Software Engineer | Founder of JS SoftTools</h3>\\n')
     
-    # DYNAMIC TYPING SVG (CYBERPUNK STYLED)
-    lines.append("""
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3200&pause=1200&color=00FFC4&center=true&vCenter=true&width=680&lines=Modern+Software+Developer;AI+Developer;Full+Stack+Developer;Desktop+Application+Developer;Open+Source+Projects" alt="typing animation" />
-</div>
-<br/>
-""")
-
-    # SOCIAL BADGES
-    lines.append("""
-<div align="center">
-  <a href="https://jayasubramaniportfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-%2300ffc4?style=for-the-badge&logo=Web&logoColor=0a0a0f&color=0a0a0f" alt="Portfolio"/></a>
-  <a href="https://www.linkedin.com/in/jayasubramani-s-547201290"><img src="https://img.shields.io/badge/LinkedIn-%2300ffc4?style=for-the-badge&logo=linkedin&logoColor=0a0a0f&color=0a0a0f" alt="LinkedIn"/></a>
-  <a href="https://leetcode.com/u/a9JgwmiBQz/"><img src="https://img.shields.io/badge/LeetCode-%2300ffc4?style=for-the-badge&logo=LeetCode&logoColor=0a0a0f&color=0a0a0f" alt="LeetCode"/></a>
-  <a href="mailto:jayasubramani2971@gmail.com"><img src="https://img.shields.io/badge/Email-%2300ffc4?style=for-the-badge&logo=Gmail&logoColor=0a0a0f&color=0a0a0f" alt="Email"/></a>
-  <a href="https://www.instagram.com/jssofttoolsproducts"><img src="https://img.shields.io/badge/Instagram-%2300ffc4?style=for-the-badge&logo=Instagram&logoColor=0a0a0f&color=0a0a0f" alt="Instagram"/></a>
-</div>
-<br/>
-""")
+    lines.append('<p align="left"> <img src="https://komarev.com/ghpvc/?username=jayamani2006&label=Profile%20views&color=0e75b6&style=flat" alt="jayamani2006" /> </p>')
+    lines.append('<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jayamani2006&theme=dracula" alt="jayamani2006" /></a> </p>\\n')
     
-    # ABOUT
-    lines.append(f'<div align="center">\n  <img src="{generate_header_svg("ABOUT.SYSTEM")}" alt="Header" />\n</div>\n')
-    lines.append("Most of what I build starts from a personal itch — a Windows setting I was tired of re-clicking, an audio-routing problem with no clean tool for it, a touchpad driver bug nobody else fixed. I'd rather finish one of those completely — installer, tray icon, settings screen and all — than leave ten scripts half-working.\n")
-    lines.append("> **Philosophy:** clean enough to maintain, practical enough to matter, polished enough to enjoy using. Anything less isn't finished.\n")
+    # 2. ABOUT ME BULLETS
+    lines.append("- 🔭 I’m currently working on [JS NotePad Website](https://js-notepad-website.onrender.com)")
+    lines.append("- 🌱 I’m currently learning **Advanced Java Data Structures & Algorithms, SQL, Node.js, Angular, React, System Design, REST APIs, GitHub Actions, AI Application Development**")
+    lines.append("- 👯 I’m looking to collaborate on [Open Source AI, Desktop Applications & Full Stack Projects](https://github.com/jayamani2006)")
+    lines.append("- 🤝 I’m looking for help with [AI Integration, Open Source Contributions & Scalable Software Architecture](https://github.com/jayamani2006)")
+    lines.append("- 👨‍💻 All of my projects are available at [https://jayasubramaniportfolio.netlify.app/](https://jayasubramaniportfolio.netlify.app/)")
+    lines.append("- 💬 Ask me about **Java, Python, SQL, Node.js, Angular, React, Desktop Application Development, AI Projects, UI/UX Design, GitHub Automation, Open Source**")
+    lines.append("- 📫 How to reach me **Personal: jayasubramani2971@gmail.com | Business: support.jssofttoolsproducts@gmail.com**")
+    lines.append("- 📄 Know about my experiences [https://jayasubramaniportfolio.netlify.app/](https://jayasubramaniportfolio.netlify.app/)\\n")
     
-    # WAKATIME TELEMETRY
-    lines.append(f'<div align="center">\n  <img src="{generate_header_svg("TELEMETRY.WAKATIME")}" alt="Header" />\n</div>\n')
-    lines.append("""
-<div align="center">
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-</div>
-<br/>
-""")
+    # 3. SOCIAL LINKS (Colored Badges)
+    lines.append('<h3 align="left">Connect with me:</h3>')
+    lines.append('<div align="center">')
+    lines.append('  <a href="https://linkedin.com/in/jayasubramani-s-547201290"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin" /></a>')
+    lines.append('  <a href="mailto:jayasubramani2971@gmail.com"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail" /></a>')
+    lines.append('  <a href="https://instagram.com/jaya_mani2971"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram" /></a>')
+    lines.append('  <a href="https://open.spotify.com/user/31gqp4an3kwy3c5o7zxv7ailkubm"><img src="https://img.shields.io/static/v1?message=Spotify&logo=spotify&label=&color=000000&logoColor=1DB954&labelColor=&style=for-the-badge" height="25" alt="spotify" /></a>')
+    lines.append('  <a href="https://fb.com/jaya.subramani.2025"><img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="facebook" /></a>')
+    lines.append('  <a href="https://www.reddit.com/u/Educational-Pain9138"><img src="https://img.shields.io/static/v1?message=Reddit&logo=reddit&label=&color=FF4500&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="reddit" /></a>')
+    lines.append('  <a href="https://leetcode.com/u/a9JgwmiBQz/"><img src="https://img.shields.io/static/v1?message=LeetCode&logo=leetcode&label=&color=FFA116&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="leetcode" /></a>')
+    lines.append('  <a href="http://hackerrank.com/profile/jayasubramani291"><img src="https://img.shields.io/static/v1?message=HackerRank&logo=hackerrank&label=&color=00EA64&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="hackerrank" /></a>')
+    lines.append('  <a href="https://jayasubramaniportfolio.netlify.app/"><img src="https://img.shields.io/static/v1?message=Portfolio&logo=web&label=&color=0a0a0f&logoColor=00ffc4&labelColor=&style=for-the-badge" height="25" alt="portfolio" /></a>')
+    lines.append('</div>\\n')
     
-    # TECH ECOSYSTEM
-    lines.append(f'<div align="center">\n  <img src="{generate_header_svg("TECH.ECOSYSTEM")}" alt="Header" />\n</div>\n')
-    lines.append(f'<div align="center">\n  <img src="{generate_tech_ecosystem_svg()}" alt="Tech Ecosystem" />\n</div>\n')
-    
-    # PROJECTS
-    lines.append(f'<div align="center">\n  <img src="{generate_header_svg("PORTFOLIO.REGISTRY")}" alt="Header" />\n</div>\n')
-    
-    projects = [
-        ("SmartLink", "RUNNING", "Desktop monitoring and remote-control platform via Telegram.", "Python | PyQt | Win32"),
-        ("PQI AI", "ANALYZING", "AI-powered Power Quality Index predictor for electrical systems.", "Python | ML | Streamlit"),
-        ("CineEase", "ONLINE", "Full-stack movie management web app.", "React | Node.js | MySQL"),
-        ("JS Todo", "STANDBY", "Modern productivity desktop app backed by SQLite.", "Python | PyQt6 | SQLite"),
-        ("JS TapTap", "STANDBY", "Lightweight desktop click-speed benchmark.", "Python | Pygame"),
-        ("JS PC Optimizer", "STANDBY", "17-module Windows gaming & system optimization suite.", "Batch | PowerShell"),
-        ("JS AudioSwitch v2.0", "STANDBY", "One-click VB-Audio toggle via COM API.", "Python | WinAudio"),
-        ("JS LiveWallpaper", "STANDBY", "Live wallpaper engine embedded into desktop WorkerW.", "C# | Win32 API"),
-        ("JS SoundPad", "STANDBY", "Chrome extension routing MP3/MP4 audio into Discord.", "JavaScript | Chrome API"),
-        ("StudentNotes", "STANDBY", "JavaFX Maven desktop notes app.", "JavaFX | Maven")
+    # 4. TECH STACK (Devicons)
+    lines.append('<h3 align="left">Languages and Tools:</h3>')
+    lines.append('<div align="center">')
+    tech_icons = [
+        "angularjs/angularjs-original.svg", "arduino/arduino-original.svg", "amazonwebservices/amazonwebservices-original-wordmark.svg",
+        "bash/bash-original.svg", "c/c-original.svg", "csharp/csharp-original.svg", "css3/css3-original-wordmark.svg",
+        "express/express-original-wordmark.svg", "figma/figma-original.svg", "git/git-original.svg",
+        "html5/html5-original-wordmark.svg", "java/java-original.svg", "javascript/javascript-original.svg",
+        "mongodb/mongodb-original-wordmark.svg", "mysql/mysql-original-wordmark.svg", "nodejs/nodejs-original-wordmark.svg",
+        "pandas/pandas-original.svg", "python/python-original.svg", "react/react-original.svg",
+        "sqlite/sqlite-original.svg", "typescript/typescript-original.svg", "vscode/vscode-original.svg"
     ]
+    for tech in tech_icons:
+        lines.append(f'  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{tech}" height="40" alt="{tech.split("/")[0]}" /> <img width="12" />')
+    lines.append('</div>\\n<br/>\\n')
     
-    for title, status, desc, tech in projects:
-        lines.append(f"""<details>
-<summary><img src="{generate_status_svg(status)}" align="top" /> <b>{title}</b></summary>
-<br/>
-<p><i>{desc}</i><br/><b>Tech:</b> <code>{tech}</code></p>
-</details>""")
-    lines.append('\n')
+    # 5. GITHUB STATS & STREAKS (Side-by-side Progress Style)
+    lines.append('<div align="center">')
+    lines.append('  <img src="https://github-readme-stats.vercel.app/api?username=jayamani2006&show_icons=true&theme=dracula&hide_border=false" height="150" alt="GitHub Stats" />')
+    lines.append('  <img src="https://streak-stats.demolab.com?user=jayamani2006&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="Streak Graph" />')
+    lines.append('</div>\\n<br/>\\n')
     
-    # ROADMAP
-    lines.append(f'<div align="center">\n  <img src="{generate_header_svg("SYSTEM.ROADMAP")}" alt="Header" />\n</div>\n')
-    lines.append(f'<div align="center">\n  <img src="{generate_roadmap_svg()}" alt="Roadmap" />\n</div>\n')
-
-    # SPOTIFY
-    lines.append(f'<div align="center">\n  <img src="{generate_header_svg("AUDIO.SUBSYSTEM")}" alt="Header" />\n</div>\n')
-    lines.append(f'<div align="center">\n  <img src="{generate_spotify_svg()}" alt="Spotify Playlist" />\n</div>\n<br/>\n')
-    
-    # GITHUB STATS
-    lines.append(f'<div align="center">\n  <img src="{generate_header_svg("TELEMETRY.STATS")}" alt="Header" />\n</div>\n')
-    lines.append("""
-<table width="100%">
-<tr>
-<td width="50%">
-<img width="100%" src="https://github-readme-stats.vercel.app/api?username=jayamani2006&show_icons=true&hide_border=true&bg_color=0a0a0f&title_color=ff0055&icon_color=00ffc4&text_color=e2e2ee" alt="github stats"/>
-</td>
-<td width="50%">
-<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jayamani2006&layout=compact&hide_border=true&bg_color=0a0a0f&title_color=ff0055&text_color=e2e2ee" alt="top languages"/>
-</td>
-</tr>
-</table>
-<img width="100%" src="https://streak-stats.demolab.com/?user=jayamani2006&hide_border=true&background=0a0a0f&ring=ff0055&fire=00ffc4&currStreakLabel=00ffc4" alt="streak stats"/>
-<br/>
-""")
-
-    # ACHIEVEMENTS
-    lines.append(f'<div align="center">\n  <img src="{generate_header_svg("SYSTEM.ACHIEVEMENTS")}" alt="Header" />\n</div>\n')
-    lines.append("""
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=jayamani2006&theme=discord&column=-1&margin-w=8&margin-h=8&bg_color=0a0a0f&title_color=ff0055&text_color=00ffc4&frame_color=2a2a35" alt="trophies"/>
-<div align="center"><sub>Ranks grow with public GitHub activity — some may read <code>UNKNOWN</code> until there's more history to score.</sub></div>
-<br/>
-""")
-
-    # ACTIVITY SNAKE
-    lines.append(f'<div align="center">\n  <img src="{generate_header_svg("NETWORK.ACTIVITY")}" alt="Header" />\n</div>\n')
-    lines.append("""
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jayamani2006/jayamani2006/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jayamani2006/jayamani2006/output/github-contribution-grid-snake-dark.svg" />
-  <img alt="contribution snake" width="100%" src="https://raw.githubusercontent.com/jayamani2006/jayamani2006/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-<div align="center"><sub>Needs a one-time setup — see <code>snake.yml</code>. Runs itself daily after that.</sub></div>
-<br/>
-""")
-    
-    # FOOTER
-    lines.append(f'<div align="center">\n  <img src="{generate_footer_svg()}" alt="Footer" />\n</div>\n')
+    # 7. PACMAN CONTRIBUTION GRAPH
+    lines.append('<div align="center">')
+    lines.append('  <h3>Contribution Graph</h3>')
+    lines.append('  <picture>')
+    lines.append('    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jayamani2006/jayamani2006/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">')
+    lines.append('    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jayamani2006/jayamani2006/pacman-output/pacman-contribution-graph.svg?game=pacman">')
+    lines.append('    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/jayamani2006/jayamani2006/pacman-output/pacman-contribution-graph.svg?game=pacman">')
+    lines.append('  </picture>')
+    lines.append('</div>\\n<br/>\\n')
 
     with open("README.md", "w", encoding="utf-8") as f:
-        f.write('\n'.join(lines))
-    print("Generated Ultimate V2 Cyberpunk README.md successfully.")
+        f.write("\\n".join(lines))
+    print("Generated Ultimate README.md successfully.")
 
 if __name__ == "__main__":
     build_readme()
+

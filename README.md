@@ -4,10 +4,10 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jayamani2006&label=Profile%20views&color=0e75b6&style=flat" alt="jayamani2006" /> </p>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jayamani2006&theme=dracula" alt="jayamani2006" /></a> </p>
 
-- 🔭 I’m currently working on [JS NotePad Website](https://js-notepad-website.onrender.com)
-- 🌱 I’m currently learning **Advanced Java Data Structures & Algorithms, SQL, Node.js, Angular, React, System Design, REST APIs, GitHub Actions, AI Application Development**
-- 👯 I’m looking to collaborate on [Open Source AI, Desktop Applications & Full Stack Projects](https://github.com/jayamani2006)
-- 🤝 I’m looking for help with [AI Integration, Open Source Contributions & Scalable Software Architecture](https://github.com/jayamani2006)
+- 🔭 I'm currently working on [JS NotePad Website](https://js-notepad-website.onrender.com)
+- 🌱 I'm currently learning **Advanced Java Data Structures & Algorithms, SQL, Node.js, Angular, React, System Design, REST APIs, GitHub Actions, AI Application Development**
+- 👯 I'm looking to collaborate on [Open Source AI, Desktop Applications & Full Stack Projects](https://github.com/jayamani2006)
+- 🤝 I'm looking for help with [AI Integration, Open Source Contributions & Scalable Software Architecture](https://github.com/jayamani2006)
 - 👨‍💻 All of my projects are available at [https://jayasubramaniportfolio.netlify.app/](https://jayasubramaniportfolio.netlify.app/)
 - 💬 Ask me about **Java, Python, SQL, Node.js, Angular, React, Desktop Application Development, AI Projects, UI/UX Design, GitHub Automation, Open Source**
 - 📫 How to reach me **Personal: jayasubramani2971@gmail.com | Business: support.jssofttoolsproducts@gmail.com**
